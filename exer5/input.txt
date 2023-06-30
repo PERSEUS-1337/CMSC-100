@@ -1,0 +1,27 @@
+mongosh
+use EXER5
+db.users.insertMany([
+    { firstName: "Aron Resty", lastName: "Ramillano", email: "abramillano@up.edu.ph", age: 20 }, 
+    { firstName: "Adelmo", lastName: "Silverberry", email: "adelmosilverberry@gmail.com", age: 69 }, 
+    { firstName: "Ioseph", lastName: "Bunker", email: "iosephbunker@gmail.com", age: 42 }, 
+    { firstName: "Porketill", lastName: "Bradley", email: "poketillbradley@gmail.com", age: 77 }, 
+    { firstName: "Wukong", lastName: "Christinsen", email: "wukongchristinsen@gmail.com", age: 10 }
+])
+db.posts.insertMany([
+    { postAuthor: "624be451095a9fea0ddfc708", timeStamp: "2020-01-09T12:09:09", content: "The spa attendant applied the deep cleaning mask to the gentleman’s back." },
+    { postAuthor: "624be451095a9fea0ddfc708", timeStamp: "2020-04-20T06:30:40", content: "David subscribes to the 'stuff your tent into the bag' strategy over nicely folding it." },
+    { postAuthor: "624be451095a9fea0ddfc709", timeStamp: "2020-01-01T11:11:11", content: "When he had to picnic on the beach, he purposely put sand in other people’s food."},
+    { postAuthor: "624be451095a9fea0ddfc70a", timeStamp: "2020-12-30T01:30:55", content: "I was starting to worry that my pet turtle could tell what I was thinking." },
+    { postAuthor: "624be451095a9fea0ddfc70b", timeStamp: "2020-07-07T07:08:09", content: "So long and thanks for the fish." },
+    { postAuthor: "624be451095a9fea0ddfc708", timeStamp: "2020-08-25T01:25:25", content: "Too many prisons have become early coffins." },
+    { postAuthor: "624be451095a9fea0ddfc70c", timeStamp: "2020-01-10T06:48:10", content: "Henry couldn't decide if he was an auto mechanic or a priest." }
+])
+db.users.find({age: {$lt: 18}, email: /.*gmail.com/})
+db.users.updateOne({ firstName: "Aron Resty" }, { $set: { friends: ["624c1286095a9fea0ddfc71b","624c1286095a9fea0ddfc71c", "624c1286095a9fea0ddfc71d"]}})
+db.users.updateOne({ firstName: "Adelmo" }, { $set: { friends: ["624c1286095a9fea0ddfc71a", "624c1286095a9fea0ddfc71c", "624c1286095a9fea0ddfc71d"]}})
+db.users.updateOne({ firstName: "Aron Resty" }, { $set: { password: "30@WtaPP" }})
+db.users.updateOne({ firstName: "Adelmo"}, { $set: { password: "55Z23kP$" }})
+db.users.updateOne({ firstName: "Ioseph" }, { $set: { password: "Dfr%7Uf3" }})
+db.users.updateOne({ firstName: "Porketill" }, { $set: { password: "#27do7C@" }})
+db.users.updateOne({ firstName: "Wukong" }, { $set: { password: "L02oH1f%" }})
+db.users.deleteMany({ age: { $lt: 18} })

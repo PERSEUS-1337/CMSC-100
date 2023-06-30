@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+</head>
+<body>
+    <div class="center">
+        <h1>LAB EXERCISE</h1>
+        <form id="user-form">
+            <div>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" class="norm" required>
+            </div>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" class="norm" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" id="email" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" class="norm" required>
+            </div>
+            <div>
+                <label for="bday">Birthday: </label>
+                <input type="date" id="bday" class="norm" required>
+            </div>
+
+            <div>
+                <label for="height">Height (in cm): </label>
+                <input type="number" id="height" size="3" class="norm" required><br><br>
+            </div>
+
+            <div>
+                <legend for="sex">Sex:</legend>
+                <div>
+                    <label for="male"><input type="radio" id="sex" name="sex" value="male" required>Male</label>
+                </div>
+                <div>
+                    <label for="male"><input type="radio" id="sex" name="sex" value="female" required>Female</label>
+                </div>
+            </div>
+            <button type="reset" id="add" onclick="showInput()">ADD!</button>
+        </form>
+        <script src="static/script.js"></script>
+        <br><br>
+        <label>Your Input:</label>
+        <ul id="list"></ul>
+    </div>
+</body>
+</html>

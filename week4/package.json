@@ -1,0 +1,8 @@
+{
+    "name": "basic-web-server",
+    "dependencies": {
+        "express": "^4.17.3",
+        "needle": "^3.0.0"
+    },
+    "type": "module"
+}

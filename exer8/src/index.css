@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+div {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* Header */
+
+.header-container {
+  display:flex;
+  background: #0900b5;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.dot {
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 30px;
+  height: 30px;
+  width: 30px;
+  background: rgb(245, 217, 89);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.title-fixed {
+  background: #0057c9;
+  flex-grow: 1;
+  margin-right: 10px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+h1 {
+  color: #ffffff;
+  font-weight:bolder;
+  font-size:xx-large;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.main-container {
+  position: center;
+  margin: auto;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background: #0900b5;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+/* MAIN */
+/* FORM */
+.main-box-mid {
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1px;
+  min-width: 30%;
+
+  background: transparent;
+  border-width: 2px;
+  border-radius:30px;
+
+  flex-grow: 1;
+}
+
+.form-box {
+  display:flex;
+  flex-direction: row;
+  position: center;
+}
+
+#form-text {
+  font-weight: lighter;
+  font-size: 25px;
+
+  position: center;
+  padding: 10px;
+  margin-left: 10px;
+  flex-grow: 1;
+
+  border: none;
+  background: rgb(245, 217, 89);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+#pfp-dot {
+  background-color: rgb(238, 49, 49);
+  padding: 10px;
+}
+
+/* POSTS */
+
+.post-box {
+  display:flex;
+  flex-direction: row;
+  position: center;
+}
+
+.post-main {
+  position: relative;
+  padding: 10px;
+  margin-left: 10px;
+  flex-grow: 1;
+
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+
+  border: none;
+  background: rgb(245, 217, 89);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  border-radius:30px;
+}
+
+.post-details {
+  position:relative;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+  padding-right: 2%;
+
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background: rgb(128, 110, 33);
+  border-radius: 30px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+
+/* FRIENDS LEFT */
+
+.main-box-left {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  min-width: 15%;
+  background: #0057c9;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  border-radius:30px;
+
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.friend-text-box {
+  text-align: left;
+  line-height: 10%;
+  padding: 5px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+hr.line {
+  border: 2px solid black;
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* ADS RIGHT */
+
+.main-box-right {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+
+  min-width: 15%;
+  background: #0057c9;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  border-radius:30px;
+
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.ad-text-box {
+  text-align: left;
+  padding: 1px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.link-text {
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}

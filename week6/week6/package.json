@@ -1,0 +1,9 @@
+{
+  "name": "week6",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "needle": "^3.0.0"
+  },
+  "type": "module"
+}

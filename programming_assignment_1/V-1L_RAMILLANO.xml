@@ -1,0 +1,147 @@
+<games>
+    <game1>
+        <title>Counter-Strike: Global Offensive</title>
+        <releaseDate>08-21-2012</releaseDate>
+        <genre>First-person shooter</genre>
+        <mode>Multiplayer</mode>
+        <publisher>Valve</publisher>
+        <price>0$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <yearlyRevenue>$417,000,000</yearlyRevenue>
+    </game1>
+
+    <game2>
+        <title>Minecraft</title>
+        <releaseDate>11-18-2011</releaseDate>
+        <genres>
+            <genre>Sandbox</genre>
+            <genre>Survival</genre>
+        </genres>
+        <modes>
+            <mode>Single-player</mode>
+            <mode>Multiplayer</mode>
+        </modes>
+        <publisher>Mojang</publisher>
+        <price>25.96$</price>
+        <hasEsports>false</hasEsports>
+        <hasRankedGames>false</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <yearlyRevenue>$500,000,000</yearlyRevenue>
+    </game2>
+
+    <game3>
+        <title>League of Legends</title>
+        <releaseDate>03-01-2013</releaseDate>
+        <genre>MOBA</genre>
+        <mode>Single-player</mode>
+        <publisher>Riot Games</publisher>
+        <price>0$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>false</offlineMode>
+        <yearlyRevenue>$2,100,000,000</yearlyRevenue>
+    </game3>
+
+    <game4>
+        <title>PUBG: Battlegrounds</title>
+        <releaseDate>12-20-2017</releaseDate>
+        <genre>Battle royale</genre>
+        <mode>Multiplayer</mode>
+        <publishers>
+            <publisher>Krafton</publisher>
+            <publisher>Microsoft Studios</publisher>
+            <publisher>Tencent Games</publisher>
+        </publishers>
+        <price>29.99$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>false</offlineMode>
+        <highestRevenue>$333,600,000</highestRevenue>
+    </game4>
+
+    <game5>
+        <title>Left 4 Dead 2</title>
+        <releaseDate>11-17-2009</releaseDate>
+        <genre>First-person shooter</genre>
+        <genre>Survival horror</genre>
+        <modes>
+            <mode>Single-player</mode>
+            <mode>Multiplayer</mode>
+        </modes>
+        <publisher>Valve</publisher>
+        <price>9.99$</price>
+        <hasEsports>false</hasEsports>
+        <hasRankedGames>false</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <highestRevenue>$218,600,000</highestRevenue>
+    </game5>
+
+    <game6>
+        <title>Real Racing 3</title>
+        <releaseDate>02-28-2012</releaseDate>
+        <genre>Racing</genre>
+        <mode>Single-player</mode>
+        <mode>Multiplayer</mode>
+        <publisher>Firemonkey's Studios</publisher>
+        <price>0$</price>
+        <hasEsports>false</hasEsports>
+        <hasRankedGames>false</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <highestRevenue>$27,000,000</highestRevenue>
+    </game6>
+
+    <game7>
+        <title>Clash of Clans</title>
+        <releaseDate>08-02-2012</releaseDate>
+        <genre>Strategy</genre>
+        <mode>Single-player</mode>
+        <mode>Multiplayer</mode>
+        <publisher>Supercell</publisher>
+        <price>0$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>false</offlineMode>
+        <highestRevenue>$1,800,000,000</highestRevenue>
+    </game7>
+
+    <game8>
+        <title>Geometry Dash</title>
+        <releaseDate>08-12-2013</releaseDate>
+        <genre>Rhythm</genre>
+        <mode>Single-player</mode>
+        <publisher>Robtop Games</publisher>
+        <price>3.99$</price>
+        <hasEsports>false</hasEsports>
+        <hasRankedGames>false</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <highestRevenue>$13,000,000</highestRevenue>
+    </game8>
+
+    <game9>
+        <title>DOTA 2</title>
+        <releaseDate>07-09-2013</releaseDate>
+        <genre>MOBA</genre>
+        <mode>Multiplayer</mode>
+        <publisher>Valve</publisher>
+        <price>0$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>true</offlineMode>
+        <highestRevenue>$406,000,000</highestRevenue>
+    </game9>
+
+    <game10>
+        <title>Mobile Legends: Bang Bang</title>
+        <releaseDate>07-14-2016</releaseDate>
+        <genre>Strategy: MOBA</genre>
+        <mode>Multiplayer</mode>
+        <publisher>Moonton</publisher>
+        <price>0$</price>
+        <hasEsports>true</hasEsports>
+        <hasRankedGames>true</hasRankedGames>
+        <offlineMode>false</offlineMode>
+        <highestRevenue>$502,500,000</highestRevenue>
+    </game10>
+</games>

@@ -1,0 +1,123 @@
+{
+    "game1": {
+        "title": "Counter-Strike: Global Offensive",
+        "releaseDate": "08-21-2012",
+        "genre": "First-person shooter",
+        "mode": "Multiplayer",
+        "publisher": "Valve",
+        "price": "0$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": true,
+        "yearlyRevenue": "$417,000,000"
+    },
+    "game2": {
+        "title": "Minecraft",
+        "releaseDate": "11-18-2011",
+        "genre": ["Sandbox", "Survival"],
+        "mode": ["Single-player", "Multiplayer"],
+        "publisher": "Mojang",
+        "price": "25.96$",
+        "hasEsports": false,
+        "hasRankedGames": false,
+        "offlineMode": true,
+        "highestRevenue": "$500,000,000"
+    },
+    "game3": {
+        "title": "League of Legends",
+        "releaseDate": "03-01-2013",
+        "genre": "MOBA",
+        "mode": "Multiplayer",
+        "publisher": "Riot Games",
+        "price": "0$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": false,
+        "highestRevenue": "$2,100,000,000"
+    },
+    "game4": {
+        "title": "PUBG: Battlegrounds",
+        "releaseDate": "12-20-2017",
+        "genre": "Battle royale",
+        "mode": "Multiplayer",
+        "publisher": ["Krafton","Microsoft Studios", "Tencent Games"],
+        "price": "29.99$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": false,
+        "highestRevenue": "$333,600,000"
+    },
+    "game5": {
+        "title": "Left 4 Dead 2",
+        "releaseDate": "11-17-2009",
+        "genre": ["First-person shooter", "Survival horror"],
+        "mode": ["Single-player", "Multiplayer"],
+        "publisher": "Valve",
+        "price": "9.99$",
+        "hasEsports": false,
+        "hasRankedGames": false,
+        "offlineMode": true,
+        "highestRevenue": "$218,600,000"
+    },
+    "game6": {
+        "title": "Real Racing 3",
+        "releaseDate": "02-28-2012",
+        "genre": "Racing",
+        "mode": ["Single-player", "Multiplayer"],
+        "publisher": "Firemonkey's Studios",
+        "price": "0$",
+        "hasEsports": false,
+        "hasRankedGames": false,
+        "offlineMode": true,
+        "highestRevenue": "$27,000,000"
+    },
+    "game7": {
+        "title": "Clash of Clans",
+        "releaseDate": "08-02-2012",
+        "genre": "Strategy",
+        "mode": ["Single-player", "Multiplayer"],
+        "publisher": "Supercell",
+        "price": "0$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": false,
+        "highestRevenue": "$1,800,000,000"
+    },
+    "game8": {
+        "title": "Geometry Dash",
+        "releaseDate": "08-12-2013",
+        "genre": "Rhythm",
+        "mode": "Single-player",
+        "publisher": "Robtop Games",
+        "price": "3.99$",
+        "hasEsports": false,
+        "hasRankedGames": false,
+        "offlineMode": true,
+        "highestRevenue": "$13,000,000"
+    },
+    "game9": {
+        "title": "DOTA 2",
+        "releaseDate": "07-09-2013",
+        "genre": "MOBA",
+        "mode": "Multiplayer",
+        "publisher": "Valve",
+        "price": "0$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": true,
+        "highestRevenue": "$406,000,000"
+    },
+    "game10": {
+        "title": "Mobile Legends: Bang Bang",
+        "releaseDate": "07-14-2016",
+        "genre": "Strategy: MOBA",
+        "mode": "Multiplayer",
+        "publisher": "Moonton",
+        "price": "0$",
+        "hasEsports": true,
+        "hasRankedGames": true,
+        "offlineMode": false,
+        "highestRevenue": "$502,500,000"
+    }
+}
+    

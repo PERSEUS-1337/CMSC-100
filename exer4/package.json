@@ -1,0 +1,17 @@
+{
+  "name": "lab-exer-4",
+  "version": "1.0.0",
+  "description": "Create an Express JS server that accepts requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PERSEUS-1337 / Aron Resty Ramillano, BSCS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "needle": "^3.0.0",
+    "unique-string": "^3.0.0"
+  },
+  "type": "module"
+}
